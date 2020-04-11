@@ -56,7 +56,7 @@ def build_model():
     
     cv = GridSearchCV(pipeline, parameters)
     
-    return pipeline
+    return cv
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
